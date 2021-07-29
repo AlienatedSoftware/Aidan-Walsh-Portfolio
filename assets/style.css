@@ -102,5 +102,5 @@
 }
 
 .cube_face--top {
-    transform: rotateY(90deg) translateZ(25px);
+    transform: rotateX(90deg) translateZ(25px);
 }
