@@ -16,15 +16,16 @@
     padding: 30px;
 }
 
-.scene > i {
+.cube_face > i {
     font-size: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
 }
 
-.cube_face > i {
+.scene > i {
     font-size: 30px;
     position: absolute;
     bottom: 0;
@@ -34,7 +35,7 @@
     transition: bottom .3s;
 }
 
-.scene:hover .cube_face > i {
+.scene:hover > i {
     transform: translate(-50%, 0) rotateY(360deg);
     bottom: -10px;
     transition: .3s .2s;
