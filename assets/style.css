@@ -104,3 +104,7 @@
 .cube_face--top {
     transform: rotateX(90deg) translateZ(25px);
 }
+
+.scene:hover .cube {
+    transform: translateY(-40px) translateZ(-100px) rotateX(30deg) rotateY(30deg);
+}
